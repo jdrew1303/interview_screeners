@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+
+        <form name="ngform" sf-model="submit.modelData" sf-form="submit.formJson" sf-schema="submit.schemaJson" ng-submit="submit.submitForm(ngform,submit.modelData)"></form>
+
+        <div ng-show="ngform.$valid"><em>Form is valid</em></div>
+        <div ng-show="ngform.$invalid"><em>Form is not valid</em></div>
+
+      </div>
+    </div>
+  </div>
+
+
