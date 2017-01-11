@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "interview questions for kitman labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./*.spec.js | tap-summary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdrew1303/interview_screeners"
+  },
+  "keywords": [
+    "interview",
+    "questions"
+  ],
+  "author": "James Drew <j.drew1303@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdrew1303/interview_screeners/issues"
+  },
+  "homepage": "https://github.com/jdrew1303/interview_screeners#readme",
+  "devDependencies": {
+    "tap-summary": "^3.0.1",
+    "tape": "^4.6.3"
+  }
+}
